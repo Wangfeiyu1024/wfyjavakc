@@ -36,7 +36,7 @@ public class CPU {
 		// TODO Auto-generated method stub
 		CPU cpul = new CPU(4,"lntel",25);   //字符串带引号
 		cpul.judge(cpul.temperature);
-		System.out.println(cpul.type+"的cpu温度正常，"+"温度是"+cpul.temperature); //调用用实例化.属性   记得写+
+		System.out.println(cpul.type+"，"+"温度是"+cpul.temperature); //调用用实例化.属性   记得写+
 	}
 
 }
