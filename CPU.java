@@ -2,9 +2,9 @@ package computerw;
 
 public class CPU {
     int speed;
-    String type;  //CPUµÄĞÍºÅ
+    String type;  //CPUçš„å‹å·
     static int m;
-    private double temperature;           //CPUµÄÎÂ¶È CPUµÄË½ÓĞ±äÁ¿ÎÂ¶È  Ö»ÄÜÔÚ¸ÃÀàÖĞÊ¹ÓÃ
+    private double temperature;           //CPUçš„æ¸©åº¦ CPUçš„ç§æœ‰å˜é‡æ¸©åº¦  åªèƒ½åœ¨è¯¥ç±»ä¸­ä½¿ç”¨
     CPU(){
     	
     }
@@ -17,26 +17,26 @@ public class CPU {
     	this.speed = speed;
     	this.type = type;
     	this.temperature = temperature;
-    }                                   //¹¹Ôì·½·¨ÖØÔØ ĞÎ²ÎÊıÁ¿²»Ò»Ñù
+    }                                   //æ„é€ æ–¹æ³•é‡è½½ å½¢å‚æ•°é‡ä¸ä¸€æ ·
     
 	public int getSpeed() {
 		return speed;
 	}
 
 	public void setSpeed(int m) {
-		this.speed = m;           //Ã»ÓĞthisÒ²¿ÉÒÔ Çø·Ö²ÎÊıºÍÇ°ÃæµÄspeed  ÓĞÁËthis¾Í¿ÉÒÔµ÷ÓÃÊµÀı»¯¶ÔÏóÁË
+		this.speed = m;           //æ²¡æœ‰thisä¹Ÿå¯ä»¥ åŒºåˆ†å‚æ•°å’Œå‰é¢çš„speed  æœ‰äº†thiså°±å¯ä»¥è°ƒç”¨å®ä¾‹åŒ–å¯¹è±¡äº†
 	}
     private  void judge(double temperature) {
     	 while(temperature >= 20 && temperature <= 30) {
-    		System.out.println("cpuÎÂ¶ÈÕı³£");
-    		//  break;                                 //Ìø³öÑ­»·
+    		System.out.println("cpuæ¸©åº¦æ­£å¸¸");
+    		break;                                 //è·³å‡ºå¾ªç¯
     	}
-    }                                        // Ë½ÓĞ·½·¨  ÅĞ¶ÏÊÇ·ñÎÂ¶ÈÕı³£
+    }                                        // ç§æœ‰æ–¹æ³•  åˆ¤æ–­æ˜¯å¦æ¸©åº¦æ­£å¸¸
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CPU cpul = new CPU(4,"lntel",25);   //×Ö·û´®´øÒıºÅ
+		CPU cpul = new CPU(4,"lntel",25);   //å­—ç¬¦ä¸²å¸¦å¼•å·
 		cpul.judge(cpul.temperature);
-		System.out.println(cpul.type+"µÄcpuÎÂ¶ÈÕı³££¬"+"ÎÂ¶ÈÊÇ"+cpul.temperature); //µ÷ÓÃÓÃÊµÀı»¯.ÊôĞÔ   ¼ÇµÃĞ´+
+		System.out.println(cpul.type+"çš„cpuæ¸©åº¦æ­£å¸¸ï¼Œ"+"æ¸©åº¦æ˜¯"+cpul.temperature); //è°ƒç”¨ç”¨å®ä¾‹åŒ–.å±æ€§   è®°å¾—å†™+
 	}
 
 }
