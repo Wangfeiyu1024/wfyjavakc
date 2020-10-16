@@ -62,8 +62,8 @@ private  void judge(double temperature) {
 ```
  (6)调用方法输出结果   
 ```
- public void show() {       //建立show 先写访问要求+类型+方法名+小括号【普通方法必须加类型】
-		System.out.println("cpu的速度是" + cpu.getSpeed());        //快捷方式Syso 按alt加/ 
+ public void show() {       
+		System.out.println("cpu的速度是" + cpu.getSpeed());        
 		System.out.println("硬盘的容量是" + HD.getAmount());
 	}
 ```
