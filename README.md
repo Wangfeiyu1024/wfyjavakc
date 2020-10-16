@@ -40,7 +40,12 @@ public int getAmount() {
 		this.amount = m;
 	}
 ```
-
+（4）
 
 ## 实验结果
+（1）Test类运行结果  
+![alt console](http://m.qpic.cn/psc?/V528qTS74BHGMM1h1AFf33VeSW0R67RO/ruAMsa53pVQWN7FLK88i5vA77hWdJxUsf*8Lxq0GZrdnTwIsR689bLoI65*3guWPL5Zy.6nUIRIl1HCP86b5kVkW1IpIIVxous7eMc*RRmE!/b&bo=nwIHAQAAAAADB7k!&rf=viewer_4)  
+（2）CPU类中逻辑判断的结果     
+![alt console]
+(http://m.qpic.cn/psc?/V528qTS74BHGMM1h1AFf33VeSW0R67RO/45NBuzDIW489QBoVep5mcYAA0EPCKpcMUoMrzCcWDZh.MoJxAWiF2M*Pzy0Zc2dtXXyyF3.LCuP4FPt3aWoB4WMQ7BPTiJvohYuTVMbMaMw!/b&bo=nwIHAQAAAAADF6k!&rf=viewer_4)  
 ## 实验感想
