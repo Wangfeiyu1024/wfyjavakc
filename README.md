@@ -15,13 +15,27 @@ java实验1
 5.定义多个类型属性以及构造方法并调用  
 6.设置私有变量和私有方法，体会修饰符private的用法  
 ## 实验过程
-1.建立一个包，在包中设置PC,CPU,HardDisk,主类Test  
-2.在PC类下设置cpu和HD属性以及三个普通方法setCPU,setHardDisk,show  
-3.在CPU类下设置speed属性以俩个普通方法setSpeed和getSpeed  
-4.在HardDisk类下设置amount属性以俩个普通方法setAmount和getAmount  
-5.在Test类中实例化对象cpu,disk,pc；给对象cpu,disk设置值；pc调用setCPU,setHardDisk，show方法，调用时使用实参cpu,disk
-6.设置私有变量temperature和私有方法judge，并调用测试
-7.测试在其他类中调用私有变量temperature和不同包调用私有方法
+  ### 1.建立包 
+  * 在包中设置PC,CPU,HardDisk,主类Test  
+  ### 2.PC类 
+  * 属性：cpu和HD 
+  * 方法：setCPU(),setHardDisk(),show()  
+  ### 3.CPU类 
+  * 属性：speed 
+  * 方法：setSpeed()和getSpeed()  
+  ### 4.HardDisk类 
+  * 属性：amount 
+  * 方法: setAmount()和getAmount()  
+  ### 5.Test类 
+  * 实例化对象：cpu,disk,pc 
+  * 赋值：给对象cpu,disk设置值 
+  * 调用方法：pc调用setCPU,setHardDisk，show方法，调用时使用实参cpu,disk 
+  ### 6.使用Private设置变量和方法 
+  * 私有变量：temperature 
+  * 私有方法:judge 
+  ### 7.测试private 
+  * 在其他类中调用私有变量temperature 
+  * 在不同包调用私有方法 
 ## 核心方法
 （1）设置属性  
 ```
