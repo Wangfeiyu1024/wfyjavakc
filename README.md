@@ -86,6 +86,6 @@ private  void judge(double temperature) {
 （1）Test类运行结果    
 ![alt console](http://m.qpic.cn/psc?/V528qTS74BHGMM1h1AFf33VeSW0R67RO/ruAMsa53pVQWN7FLK88i5vA77hWdJxUsf*8Lxq0GZrdnTwIsR689bLoI65*3guWPL5Zy.6nUIRIl1HCP86b5kVkW1IpIIVxous7eMc*RRmE!/b&bo=nwIHAQAAAAADB7k!&rf=viewer_4)   
 （2）CPU类逻辑方法的判断结果    
-![alt console](http://m.qpic.cn/psc?/V528qTS74BHGMM1h1AFf33VeSW0R67RO/ruAMsa53pVQWN7FLK88i5vA77hWdJxUsf*8Lxq0GZre1GGsz2Q1O*3l0gGeMH8gdvsPkF*.t*U2gPQylFyAOUSHNZqfotc2zrwk3LUTSe2g!/b&bo=nwIHAQAAAAADB7k!&rf=viewer_4) 
+![alt console](http://m.qpic.cn/psc?/V528qTS74BHGMM1h1AFf33VeSW0R67RO/ruAMsa53pVQWN7FLK88i5vA77hWdJxUsf*8Lxq0GZre1GGsz2Q1O*3l0gGeMH8gdvsPkF*.t*U2gPQylFyAOUSHNZqfotc2zrwk3LUTSe2g!/mnull&bo=nwIHAQAAAAADB7k!&rf=photolist&t=5)
 ## 实验感想
   通过此次实验了解如何建立类和方法，并在主类中实例化对象调用其他类。熟悉了private修饰符访问权限，只能在同一类中使用。也掌握主方法,普通方法和构造方法的建立及调用赋值。
